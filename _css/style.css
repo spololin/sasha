@@ -11,6 +11,7 @@ body{
     background-color: #005274;
 }
 .main-header img{
+    -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
 }
 .main-header img:hover{
@@ -85,6 +86,7 @@ body{
     background-color: #005274;
     border-color: #005274;
     padding: 10px 12px;
+    -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 .btn-block-custom .btn:hover{
@@ -100,6 +102,7 @@ body{
     font-size: 14px;
     line-height: 20px;
     text-decoration: none;
+    -webkit-transition: text-shadow 0.1s linear;
     transition: text-shadow 0.1s linear;
 }
 .main-footer a:hover{
@@ -108,6 +111,7 @@ body{
 .logo-footer img{
     vertical-align: middle;
     padding: 19px 0;
+    -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
 }
 .logo-footer img:hover{
